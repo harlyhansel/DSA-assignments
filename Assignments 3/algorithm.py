@@ -1,4 +1,4 @@
-# This is a simple Python program to greet the user
+
 
 # Ask for the user's name
 name = input("Enter your name: ")
