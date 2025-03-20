@@ -1,0 +1,16 @@
+BEGIN
+  DECLARE INTEGER a, b, temp
+
+  PRINT "Enter the value of a: "
+  INPUT a
+  PRINT "Enter the value of b: "
+  INPUT b
+
+  PRINT "Before swapping: a = ", a, " b = ", b
+
+  temp = a
+  a = b
+  b = temp
+
+  PRINT "After swapping: a = ", a, " b = ", b
+END
